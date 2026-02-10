@@ -1,0 +1,19 @@
+pkgbase = xpad-beitong-dkms
+	pkgdesc = Xbox gamepad driver with Beitong controller support using DKMS
+	pkgver = 1.0
+	pkgrel = 1
+	url = https://github.com/torvalds/linux
+	arch = x86_64
+	arch = aarch64
+	license = GPL2
+	depends = dkms
+	depends = linux-headers
+	optdepends = linux-lts-headers: for LTS kernel support
+	source = xpad.c
+	source = dkms.conf
+	source = Makefile
+	sha256sums = SKIP
+	sha256sums = SKIP
+	sha256sums = SKIP
+
+pkgname = xpad-beitong-dkms
