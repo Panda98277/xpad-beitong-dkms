@@ -1,0 +1,21 @@
+# .gitignore for AUR package directory
+
+# Build artifacts
+src/
+pkg/
+*.tar.zst
+*.tar.xz
+*.tar.gz
+*.tar
+*.zip
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# makepkg
+BUILDINFO
