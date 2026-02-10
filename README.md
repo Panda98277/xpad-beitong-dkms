@@ -9,14 +9,15 @@
 
 ## 安装
 
-
+<!-- 
 ```bash
 paru -S xpad-beitong-dkms
 ```
 or
 ```bash
 pip -S xpad-beitong-dkms
-```
+``` 
+-->
 
 ## 参考文献
 
