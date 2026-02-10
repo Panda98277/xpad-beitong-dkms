@@ -18,6 +18,12 @@ or
 pip -S xpad-beitong-dkms
 ``` 
 -->
+运行
+```bash
+git clone git@github.com:Panda98277/xpad-beitong-dkms.git
+cd xpad-beitong-dkms
+makepkg -si
+```
 
 ## 参考文献
 
